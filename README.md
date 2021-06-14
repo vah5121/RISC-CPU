@@ -1,7 +1,7 @@
 # RISC-CPU
 
 ## Purpose
-The goal is to design a 5-stage CPU using the MIPS instruction set.
+The goal is to design a 5-stage CPU using MIPS instruction set.
 
 ## Design Overview
 The 5-stages of the CPU are: instruction fetch, instruction decode, execute, memory read/write, and write back. 
