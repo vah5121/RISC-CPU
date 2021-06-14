@@ -4,9 +4,9 @@
 The goal is to design a 5-stage CPU using MIPS instruction set.
 
 ## Design Overview
-The 5-stages of the CPU are: instruction fetch, instruction decode, execute, memory read/write, and write back. 
-The instruction decode stage has a forwarding unit to avoid data hazards
-Writing to the Data Register occurs on rising clock edges and reading the Data Register occurs on falling clock edges 
+* The 5-stages of the CPU are: instruction fetch, instruction decode, execute, memory read/write, and write back. 
+* The instruction decode stage has a forwarding unit to avoid data hazards
+* Writing to the Data Register occurs on rising clock edges and reading the Data Register occurs on falling clock edges 
 
 ## Detailed Description
 
